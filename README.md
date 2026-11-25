@@ -3,7 +3,7 @@ Group 23's Semester Project
 
 ## Resume Reviewer
 
-The Streamlit prototype accepts a resume and a job description through pasted text or PDF and TXT uploads. It displays a fixed sample review and score so the team can try the interface before connecting Ollama.
+The Streamlit prototype accepts a resume and a job description through pasted text or PDF and TXT uploads. Right now, it only displays a fixed sample review and score so the we can try the interface before connecting Ollama.
 
 ## Run locally
 
