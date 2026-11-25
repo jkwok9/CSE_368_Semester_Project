@@ -1,5 +1,3 @@
-"""Review response contract for the future local Ollama integration."""
-
 from typing import TypedDict
 
 
