@@ -7,7 +7,7 @@ The Streamlit prototype accepts a resume and a job description through pasted te
 
 ## Run locally
 
-Open the repository folder in VS Code. With Python 3.10 or later installed, run these commands in the integrated terminal after cloning the rep, which starts the app from the same terminal.
+Open the repository folder in VS Code. Run these commands, assuming python is installed, in the terminal after cloning the rep, which starts the app from the same terminal.
 
 ```sh
 python3 -m venv .venv
