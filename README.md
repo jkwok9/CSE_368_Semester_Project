@@ -5,25 +5,17 @@ Group 23's Semester Project
 
 The Streamlit prototype accepts a resume and a job description through pasted text or PDF and TXT uploads. It displays a fixed sample review and score so the team can try the interface before connecting Ollama.
 
-## Run locally on macOS
+## Run locally
 
-Open the repository folder in VS Code. With Python 3.10 or later installed, run these commands in the integrated terminal after cloning the repo.
+Open the repository folder in VS Code. With Python 3.10 or later installed, run these commands in the integrated terminal after cloning the rep, which starts the app from the same terminal.
 
 ```sh
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements.txt
+python -m streamlit run app.py
 ```
 
-Start the app from the same terminal.
-
-```sh
-python -m streamlit run app.py --server.address 127.0.0.1 --browser.gatherUsageStats false
-```
-
-Open `http://127.0.0.1:8501` if the browser does not open automatically. Press **Control+C** in the terminal to stop the app.
-
-In a new terminal, run `source .venv/bin/activate` before starting the app. If `requirements.txt` changes after a pull, run `python -m pip install -r requirements.txt` again.
 
 ## Ollama integration
 
